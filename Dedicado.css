@@ -1,0 +1,222 @@
+@font-face{
+    font-family:"protest";
+    src:url("protest/Protest Demo.ttf") format("truetype");
+}
+
+*{
+margin:0;
+padding: 0;
+box-sizing:border-box;
+}
+
+body{
+background:linear-gradient(#e2ba99,#c39770);
+font-family:Georgia, serif;
+color:#1b1b1b;
+}
+
+/* CONTAINER PRINCIPAL */
+
+.container{
+width:900px;
+margin:80px auto;
+text-align:center;
+border-bottom:8px solid #6a3d1b;
+padding-bottom:80px;
+}
+
+.foto{
+width:380px;
+display:block;
+margin:0 auto 40px auto;
+border-radius:25px;
+border:10px solid #6a3d1b;
+}
+
+.titulo{
+font-size:130px;
+color:#b31217;
+letter-spacing:8px;
+font-weight:700;
+}
+
+.subtitulo{
+font-size:42px;
+margin-top:-30px;
+margin-bottom:40px;
+}
+
+.texto{
+width:650px;
+font-size:19px;
+line-height:1.7;
+margin:0 auto;
+}
+
+/* SEÇÃO PRÊMIOS */
+
+.premios{
+margin-top:140px;
+background:#caa27f;
+padding:100px 0;
+}
+
+.premios-container{
+width:1000px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+}
+
+.premios-texto{
+width:50%;
+}
+
+.titulo-premios{
+font-family:"protest";
+font-size:120px;
+color:#b31217;
+}
+
+.ano{
+margin-bottom:30px;
+}
+
+.ano h3{
+font-size:28px;
+margin-bottom:10px;
+border-bottom:1px solid #bfb3a7;
+padding-bottom:10px;
+width:100%;
+}
+
+.ano ul{
+padding-left:20px;
+}
+
+.ano li{
+font-size:18px;
+margin:6px 0;
+}
+
+/* FOTO DOS PRÊMIOS */
+
+.premios-foto img{
+width:420px;
+border-radius:20px;
+}
+
+
+/* SEÇÃO MÚSICA */
+
+.musica{
+
+background: #caa27f;
+padding:120px 0;
+text-align:center;
+
+}
+
+.musica-container{
+
+width:900px;
+margin:auto;
+
+}
+
+.musica-titulo{
+
+font-size:48px;
+letter-spacing:5px;
+color:#6a2d2d;
+margin-bottom:40px;
+
+}
+
+.video{
+
+display:flex;
+justify-content:center;
+
+}
+
+.video iframe{
+
+width:700px;
+height:390px;
+border-radius:20px;
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+
+}
+
+.musica-legenda{
+
+margin-top:25px;
+font-size:18px;
+color:#4b2b1f;
+
+}
+
+.video-player{
+
+width:700px;
+border-radius:20px;
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+
+}
+
+.instagram a{
+color:#020201;
+text-decoration:none;
+font-weight:bold;
+}
+
+.instagram a:visited{
+color:#ffd9b3;
+}
+
+.instagram a:hover{
+color:#ffffff;
+text-decoration:underline;
+}
+
+/* RODAPÉ */
+
+.rodape{
+
+margin-top:80px;
+padding:20px;
+text-align:center;
+background:#6a3d1b;
+color:white;
+
+}
+
+.autor{
+
+font-size:15px;
+margin-bottom:5px;
+
+}
+
+.instagram{
+
+font-size:15px;
+
+}
+
+.instagram a{
+
+color:#ffd9b3;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+.instagram a:hover{
+
+color:white;
+
+}
